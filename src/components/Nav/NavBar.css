@@ -1,0 +1,13 @@
+.route-nav a {
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-weight: 600;
+}
+.route-name{
+    text-decoration: none;
+    
+}
+.active{
+    color: orangered;
+}
+
