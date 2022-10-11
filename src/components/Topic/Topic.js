@@ -9,7 +9,7 @@ const Topic = ({ topic }) => {
     const { name, logo, total, id } = topic
     return (
         <Col>
-            <Card className='border-0 shadow pb-3'>
+            <Card className='border-0 shadow pb-3 mt-4'>
                 <div className='special'>
                     <Card.Img variant="top" src={logo}  />
                 </div>

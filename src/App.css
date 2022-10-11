@@ -2,14 +2,12 @@
 
 
 .App {
-  text-align: center;
+
   background-color: #61dafb;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -49,5 +47,7 @@
  
   font-family: 'Poppins', sans-serif;
   background-color: #87cfeb3b;
+      min-height: 100vh;
+  
 
 }

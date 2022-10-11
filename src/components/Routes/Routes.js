@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
-
+import Blog from "../Blogs/Blog";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import Home from "../Home/Home";
 import { getData } from "../Loader/loader";
 import QuizDetails from "../QuizeDetails/QuizDetails";
 import Root from "../Root/Root";
+import Statistics from "../Statistics/Statistics";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,14 @@ const router = createBrowserRouter([
                 },
                 element: <QuizDetails></QuizDetails>
                 
+            },
+            {
+                path: 'statistics',
+                element: <Statistics></Statistics>
+            },
+            {
+                path: 'blog',
+                element: <Blog></Blog>
             }
 
         ]

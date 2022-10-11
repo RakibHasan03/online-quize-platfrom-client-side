@@ -2,7 +2,7 @@ import React from 'react';
 
 const Option = ({ option, answerHandler }) => {
     return (
-        <div class="card mx-auto border-0 " style={{ width: '18rem' }}>
+        <div className="card mx-auto border-0 " style={{ width: '18rem' }}>
 
        
 

@@ -19,7 +19,7 @@ const SingleQuiz = ({ allQuestion }) => {
             toast.success('The Answer Is Correct', {autoClose: 1000})
         }
         else {
-            toast.warning('The Answer is Wrong', {autoClose: 1000})
+            toast.error('The Answer is Wrong', {autoClose: 1000})
         }
         
     }
@@ -31,11 +31,12 @@ const SingleQuiz = ({ allQuestion }) => {
                     <Card.Title>{question} <button onClick={correctHandler}
                         className=' position-absolute top-0 end-0 pe-3 pt-3 btn btn-white text-primary border-0'><FontAwesomeIcon icon={faEye} /></button>
                     </Card.Title>
-                    <div className='w-75 mx-auto mt-4'>
+                    <div className='md-w-75 mx-auto mt-4'>
                         <Row xs={2} md={2} lg={2} className="g-4">
                             {
                                 
                                 options.map(option => <Option
+                                    key ={option.index}
                                     option={option}
                                     answerHandler={answerHandler}>
                                     

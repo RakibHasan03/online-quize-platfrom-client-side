@@ -14,7 +14,7 @@ const QuizDetails = () => {
             <h4 className='fw-semibold text-primary'>Quiz Of {name}</h4>
 
             <div className='mt-5 pb-5'>
-                <Row xs={1} md={1} lg={1} className="g-5">
+                <Row xs={1} md={1} lg={1} className="g-4">
                     {
                         questions.map(question => <SingleQuiz
                             key={question.id}
