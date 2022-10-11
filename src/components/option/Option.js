@@ -8,15 +8,6 @@ const Option = ({ option, answerHandler }) => {
 
             <button onClick={() => { answerHandler(option)}} className='btn btn-light border border-info py-3 text-primary' > { option} </button>  
             
-           
-            
-            {/* <div>
-                <input
-                    type="radio"
-                    value={option}
-
-                /> {option}
-            </div> */}
 
         </div>
     );

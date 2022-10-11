@@ -5,7 +5,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 import Option from '../option/Option';
 import { toast } from 'react-toastify';
 
-const SingleQuiz = ({ allQuestion }) => {
+const SingleQuiz = ({ allQuestion, index }) => {
 
     const { question, options, correctAnswer } = allQuestion
 
@@ -26,17 +26,17 @@ const SingleQuiz = ({ allQuestion }) => {
 
     return (
         <Col>
-            <Card className='border border-0 shadow py-3 text-primary w-75 mx-auto'>   
+            <Card className='border border-0 shadow py-3 text-primary w-75 mx-auto' data-aos="zoom-in">   
                 <Card.Body>
-                    <Card.Title>{question} <button onClick={correctHandler}
+                    <Card.Title> <span>Quiz: {index + 1 }</span> {question} <button onClick={correctHandler}
                         className=' position-absolute top-0 end-0 pe-3 pt-3 btn btn-white text-primary border-0'><FontAwesomeIcon icon={faEye} /></button>
                     </Card.Title>
                     <div className='md-w-75 mx-auto mt-4'>
                         <Row xs={2} md={2} lg={2} className="g-4">
                             {
                                 
-                                options.map(option => <Option
-                                    key ={option.index}
+                                options.map((option, index) => <Option
+                                    key={index}
                                     option={option}
                                     answerHandler={answerHandler}>
                                     

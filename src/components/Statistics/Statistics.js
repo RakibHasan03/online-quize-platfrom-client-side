@@ -9,6 +9,7 @@ const Statistics = () => {
     // console.log(data)
     return (
         <section className='container'>
+            <h4 className='mt-5 text-center text-primary fw-semibold'>Recharts About Properties's Total and their Id</h4>
             <div className='w-75 mx-auto my-5 '>
                 <Row xs={1} md={1} lg={1} className="g-5">
                     <ResponsiveContainer width="100%"

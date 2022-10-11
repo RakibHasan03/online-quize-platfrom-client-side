@@ -7,7 +7,7 @@ const QuizDetails = () => {
 
     const details = useLoaderData().data;
     const { name, questions } = details
-    // console.log(questions)
+    console.log(questions)
 
     return (
         <section className='container mt-5 text-center'>
@@ -16,9 +16,10 @@ const QuizDetails = () => {
             <div className='mt-5 pb-5'>
                 <Row xs={1} md={1} lg={1} className="g-4">
                     {
-                        questions.map(question => <SingleQuiz
+                        questions.map((question, index)=> <SingleQuiz
                             key={question.id}
-                            allQuestion ={question}
+                            allQuestion={question}
+                            index ={index}
                         
                         >
                             

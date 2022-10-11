@@ -9,7 +9,7 @@ function YourNav() {
     return (
         <Navbar bg="light" expand="lg" className='shadow sticky-top py-2'>
             <Container>
-                <Link to='/' className='route-name fw-semibold'><h4>Learn With Quiz</h4></Link>
+                <Link to='/' className='route-name fw-semibold'><h5>Learn With Quiz</h5></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto route-nav">
