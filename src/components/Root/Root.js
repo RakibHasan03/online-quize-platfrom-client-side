@@ -6,7 +6,7 @@ export const QuizContext = createContext([]);
 
 const Root = () => {
     const data = useLoaderData().data;
-    console.log(data);
+    // console.log(data);
     return (
         <QuizContext.Provider value={data}>
             <YourNav></YourNav>

@@ -19,7 +19,7 @@ const Topic = ({ topic }) => {
                         Total Quiz: {total}
                     </Card.Text>
                 </Card.Body>
-                <Link to={`/topics/${id}`}>
+                <Link to={`/topic/${id}`}>
                     <button className='btn btn-primary'> Start practice <span>
                         <FontAwesomeIcon icon={faArrowRight} />
                     </span></button>

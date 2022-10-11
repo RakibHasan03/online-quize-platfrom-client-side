@@ -8,7 +8,7 @@ import { QuizContext } from '../Root/Root';
 
 const Home = () => {
      const topics = useContext(QuizContext)
-     console.log(topics);
+    //  console.log(topics);
     return (
         <section className='container mt-5 text-center'>
             <div className='w-75 mx-auto'>
