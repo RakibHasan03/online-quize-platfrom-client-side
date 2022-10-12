@@ -7,7 +7,7 @@
 
 - Get topic details by topic id: https://openapi.programming-hero.com/api/quiz/${id}
 
--Example: https://openapi.programming-hero.com/api/quiz/1
+- Example: https://openapi.programming-hero.com/api/quiz/1
 
 - Getting Started with A React App 
 - Used React-bootstrap Component and Bootstrap

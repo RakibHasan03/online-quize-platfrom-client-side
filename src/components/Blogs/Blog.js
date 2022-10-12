@@ -18,7 +18,7 @@ function Blog() {
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Details About "useRef" In React ?</Accordion.Header>
+                    <Accordion.Header>Details About "useRef" In React </Accordion.Header>
                     <Accordion.Body>
                         The <b>useRef</b> Hook allows you to persist values between renders.It can be used to store a mutable value that does not cause a re-render when updated.It can be used to access a DOM element directly. "useRef()" only returns one item. It returns an Object called current. When we initialize useRef we set the initial value: useRef(0).
                     </Accordion.Body>
