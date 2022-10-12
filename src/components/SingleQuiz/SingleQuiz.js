@@ -16,10 +16,10 @@ const SingleQuiz = ({ allQuestion, index }) => {
     
     const answerHandler = (option) => {
         if (correctAnswer === option) {
-            toast.success('The Answer Is Correct', {autoClose: 1000})
+            toast.success(`Your Ans. "${option}" is correct`, {autoClose: 1500})
         }
         else {
-            toast.error('The Answer is Wrong', {autoClose: 1000})
+            toast.error(`Your Ans. "${option}" is Wrong`, {autoClose: 1500})
         }
         
     }
