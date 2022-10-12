@@ -39,6 +39,7 @@ const SingleQuiz = ({ allQuestion, index }) => {
                                 options.map((option, index) => <Option
                                     key={index}
                                     option={option}
+                                    index={index}
                                     answerHandler={answerHandler}>
                                     
                                     </Option>)
