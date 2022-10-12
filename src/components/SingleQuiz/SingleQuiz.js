@@ -23,12 +23,13 @@ const SingleQuiz = ({ allQuestion, index }) => {
         }
         
     }
+    const qsName = ((question.slice(3, (question.length - 4))).replace("&nbsp;", ' ')).replace("&nbsp;", '');
 
     return (
         <Col className='mt-5'>
             <Card className='border border-0 shadow py-3 text-primary w-75 mx-auto' data-aos="zoom-in">   
                 <Card.Body>
-                    <Card.Title> <span>Quiz: {index + 1 }</span> {question} <button onClick={correctHandler}
+                    <Card.Title> <span>Quiz:{index + 1 }</span>  {qsName} <button onClick={correctHandler}
                         className=' position-absolute top-0 end-0 pe-3 pt-3 btn btn-white text-primary border-0'><FontAwesomeIcon icon={faEye} /></button>
                     </Card.Title>
                     <div className='md-w-75 mx-auto mt-4'>

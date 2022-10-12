@@ -4,9 +4,10 @@ import { useLoaderData } from 'react-router-dom';
 import SingleQuiz from '../SingleQuiz/SingleQuiz';
 
 const QuizDetails = () => {
+    window.scrollTo(0, 0);
 
     const details = useLoaderData().data;
-    const { name, questions } = details
+    const { name, questions } = details;
     
 
     return (
