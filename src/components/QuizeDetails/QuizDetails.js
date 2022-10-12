@@ -13,7 +13,7 @@ const QuizDetails = () => {
         <section className='container mt-5 text-center'>
             <h4 className='fw-semibold text-primary'>Quiz Of {name}</h4>
 
-            <div className='mt-5 pb-5'>
+            <div className='mt-3 pb-5'>
                 <Row xs={1} md={1} lg={1} className="g-4">
                     {
                         questions.map((question, index)=> <SingleQuiz

@@ -1,0 +1,9 @@
+.errorpage{
+    padding-top: 8rem;
+}
+.error-title{
+    font-size: 8rem;
+}
+.error-card{
+    background-color: #1E90FF;
+}
