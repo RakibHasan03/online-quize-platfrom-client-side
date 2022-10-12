@@ -25,7 +25,7 @@ const SingleQuiz = ({ allQuestion, index }) => {
     }
 
     return (
-        <Col>
+        <Col className='mt-5'>
             <Card className='border border-0 shadow py-3 text-primary w-75 mx-auto' data-aos="zoom-in">   
                 <Card.Body>
                     <Card.Title> <span>Quiz: {index + 1 }</span> {question} <button onClick={correctHandler}

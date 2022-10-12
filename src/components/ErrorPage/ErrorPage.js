@@ -1,10 +1,16 @@
 import React from 'react';
+import { Row } from 'react-bootstrap';
+
+
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1>404 NOT FOUND</h1>
-        </div>
+        <section className='container'>
+            <Row xs={1} md={2} lg={4} className="g-4">
+
+            </Row>
+            
+       </section>
     );
 };
 

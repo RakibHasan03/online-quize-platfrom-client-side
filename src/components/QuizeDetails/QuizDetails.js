@@ -7,7 +7,7 @@ const QuizDetails = () => {
 
     const details = useLoaderData().data;
     const { name, questions } = details
-    console.log(questions)
+    
 
     return (
         <section className='container mt-5 text-center'>
